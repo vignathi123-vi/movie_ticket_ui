@@ -64975,12 +64975,12 @@ $S:410}
 A.ig.prototype={}
 A.CW.prototype={
 O(a){var s=null
-return new A.tN(B.AG,"Movie Ticket UI",A.abw(B.X,s,!0).a2F(A.adF(B.X,s,s,B.EJ),B.yu),!1,s)}}
+return new A.tN(B.AG,"ChitraVahini",A.abw(B.X,s,!0).a2F(A.adF(B.X,s,s,B.EJ),B.yu),!1,s)}}
 A.uz.prototype={
 O(a){var s=null,r=this.d,q=this.c,p=A.d([q.w,q.x],t.t_),o=A.kL(16)
 return A.i_(s,A.aaI(q.y,B.B,s,r*0.4),s,new A.cT(s,s,s,o,s,new A.lE(B.wv,B.wt,B.dH,p,s,s),B.au),r,s,s,1/0)}}
 A.Ca.prototype={
-O(a){return A.YG(A.NO(!0,!0,B.NG),A.ael(B.xN,new A.Sb(),6,B.cg))}}
+O(a){return A.YG(A.NO(!0,!0,B.NI),A.ael(B.xN,new A.Sb(),6,B.cg))}}
 A.Sb.prototype={
 $2(a,b){var s=null,r=B.Bj[b],q=t.E
 return A.aaB(s,new A.Aq(new A.dV(B.eo,A.l_(A.d([A.QM(new A.uz(r,500,s),1),B.dD,A.du(r.a,1,B.bw,B.Mt,s),B.vv,A.ow(A.d([B.AX,B.Iy,A.du(A.m(r.f),s,s,s,s),B.IH,A.du(r.b,s,s,B.LH,s)],q),B.ac,B.ak,B.ba)],q),B.aF,B.ak),s),s),B.aW,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.Sa(a,r),s,s,s)},
@@ -65039,14 +65039,14 @@ a82(a){this.aA(new A.a79(this,a))},
 Ab(a,b){var s=null
 return A.ow(A.d([A.i_(s,s,s,new A.cT(a,s,s,A.kL(4),s,s,B.au),18,s,s,18),B.Iz,A.du(b,s,s,s,s)],t.E),B.ac,B.ak,B.ba)},
 O(a){var s,r,q,p,o=this,n=null,m=o.r,l=m.a,k=o.a,j=k.c,i=l*j.r
-l=A.NO(!0,n,B.NH)
+l=A.NO(!0,n,B.NG)
 k=A.du(j.a+"  |  "+k.d+"  |  "+k.e,n,n,B.Nl,n)
 j=A.i_(n,n,n,new A.cT(B.k8,n,n,A.kL(8),n,n,B.au),8,B.Al,n,n)
 s=A.QM(A.kU(new A.eb(B.wT,A.ael(new A.a_T(8,8,8),new A.a77(o),48,B.cg),n),n,n),1)
 r=t.E
 q=A.ow(A.d([o.Ab(B.ed,"Available"),B.vt,o.Ab(B.ib,"Selected"),B.vt,o.Ab(B.h5,"Booked")],r),B.ac,B.eI,B.ba)
 p=A.QM(A.l_(A.d([A.du("Seats: "+m.a,n,n,n,n),B.vv,A.du("Total: Rs. "+i,n,n,B.My,n)],r),B.aF,B.ak),1)
-return A.YG(l,A.l_(A.d([new A.dV(B.Ah,k,n),j,B.fe,B.NI,s,new A.dV(B.Ag,q,n),A.i_(n,A.ow(A.d([p,A.aar(B.NJ,m.a===0?n:new A.a78(o,a,i))],r),B.ac,B.ak,B.ba),B.zm,n,n,n,B.cg,n)],r),B.ac,B.ak))}}
+return A.YG(l,A.l_(A.d([new A.dV(B.Ah,k,n),j,B.fe,B.NH,s,new A.dV(B.Ag,q,n),A.i_(n,A.ow(A.d([p,A.aar(B.NJ,m.a===0?n:new A.a78(o,a,i))],r),B.ac,B.ak,B.ba),B.zm,n,n,n,B.cg,n)],r),B.ac,B.ak))}}
 A.a79.prototype={
 $0(){var s=this.a.r,r=this.b
 if(s.q(0,r))s.C(0,r)
@@ -69625,10 +69625,10 @@ B.fh=new A.j(!0,null,null,null,null,null,18,B.az,null,null,null,null,null,null,n
 B.ND=new A.dt("Story",null,B.fh,null,null,null,null)
 B.NE=new A.dt("Select Time",null,B.fh,null,null,null,null)
 B.NF=new A.dt("Cast",null,B.fh,null,null,null,null)
-B.NG=new A.dt("Now Showing",null,null,null,null,null,null)
-B.NH=new A.dt("Select Seats",null,null,null,null,null,null)
+B.NG=new A.dt("Select Seats",null,null,null,null,null,null)
 B.JJ=new A.j(!0,B.k8,null,null,null,null,11,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.NI=new A.dt("SCREEN THIS SIDE",null,B.JJ,null,null,null,null)
+B.NH=new A.dt("SCREEN THIS SIDE",null,B.JJ,null,null,null,null)
+B.NI=new A.dt('"ChitraVahini" Now Showing',null,null,null,null,null,null)
 B.NJ=new A.dt("Confirm",null,null,null,null,null,null)
 B.NK=new A.dt("Select Date",null,B.fh,null,null,null,null)
 B.NL=new A.dt("Your Ticket",null,null,null,null,null,null)
